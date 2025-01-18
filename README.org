@@ -1,0 +1,7 @@
+* build instructions
+
+#+BEGIN_SRC shell
+  cmake -B build/ -DCMAKE_BUILD_TYPE=Release
+
+  cmake --build build/
+#+END_SRC
